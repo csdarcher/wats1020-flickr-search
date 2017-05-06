@@ -2,7 +2,11 @@
    Author's custom styles
    ========================================================================== */
 
-/* Enable these styles if you wish to go into a grid layout.
+/*Fonts I am using for this project
+ font-family: 'Libre Franklin', sans-serif;
+ font-family: 'Lobster Two', cursive;
+*/
+
 ul#images li {
     width: 120px;
     height: auto;
@@ -22,6 +26,7 @@ ul#images li button {
 }
 
 --- End of grid layout styles. */
+
 
 ul#images {
     list-style-type: none;
