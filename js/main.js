@@ -7,7 +7,7 @@
 // Allow users to click the images to see a larger version with more information.
 $(document).on('ready', function(){
   var searchImages = function (tags) {
-    var flickrAPI =  "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?"       
+    var flickrAPI =  "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?"       
    $.getJSON( flickrAPI, {
       tags: tags,
       tagmode: "any",
